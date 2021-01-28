@@ -50,6 +50,8 @@ a{
 }
 .box{
     margin-top: 40px;
+    width: 250px;
+    height: 400px;
 }
 .box img{
     width: 150px;
