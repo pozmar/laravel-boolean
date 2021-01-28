@@ -7,9 +7,8 @@
         <h3>{{ $user->first_name . " " . $user->last_name}}</h3>
         <p>{{ $user->email }}</p>
         <p>{{ $user->gender}}</p>
+        <a href="/users/{{ $user->id }}">Vedi dettaglio</a>
         </div>
-        @endforeach
-
-    
+        @endforeach 
 </div>
 @endsection

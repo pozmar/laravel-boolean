@@ -13,4 +13,8 @@ class UtentiController extends Controller
         
         return view('users', compact('users'));
     }
+    public function show($id){
+        $user = Utente::find($id);
+        return view('user', compact('user'));
+    }
 }

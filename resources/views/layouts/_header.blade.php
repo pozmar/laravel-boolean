@@ -2,7 +2,7 @@
         <div class="preview">
         </div>
         <div class="navbar">
-            <img src="img/logo.png" alt="logo">
+            <img src="{{ asset('img/logo.png') }}" alt="logo">
                 <div class="navigation">
                     <ul>
                     @foreach(config('main.routes') as $route)
