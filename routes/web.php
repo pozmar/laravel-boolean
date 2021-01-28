@@ -24,4 +24,5 @@ Route::get('/dopo', function (Request $request) {
 Route::get('/camp', function (Request $request) {
     return view('camp', compact($request));
 })->name('camp');
+Route::get('/users', 'UtentiController@index')->name('users');
 

@@ -40,3 +40,18 @@ a{
     color: #84ed74;
     border-radius: 10px;
 }
+.container{
+    max-width: 1170px;
+}
+.users{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box{
+    margin-top: 40px;
+}
+.box img{
+    width: 150px;
+    height: 150px;
+}

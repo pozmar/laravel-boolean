@@ -12,10 +12,13 @@
 </head>
 <body>
     <header>
+    
         @include('layouts._header')
     </header>
     <main>
-        @yield('content')
+        <div class="container">
+            @yield('content')
+        </div>
         
     </main>
 </body>
